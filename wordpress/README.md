@@ -22,7 +22,7 @@ service/wordpress created
 ## Set port 8080 on Wordpress
 - Change the settings on Wordpress: `Setting - Wordpress Address (URL) 127.0.0.1:8080, Site Address (URL) 127.0.0.1:8080`
 
-## Use porto forwarding to access the application
+## Use port forwarding to access the application
 - Use port forwarding: `kubectl port-forward svc/wordpress 8080:80`
 
 ## Access the application from the browser
